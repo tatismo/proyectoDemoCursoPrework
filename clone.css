@@ -36,7 +36,15 @@ nav .nav-right-section .menu-icon{
     width: 25px;
     height: 25px;
 }
-
+nav .nav-right-section img{
+    border-radius: 50%;
+    margin-left: 10px;
+}
+main .main-logo{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
 main .main-buttons button{
     height: 36px;
     background-color: #f2f2f2;
@@ -62,4 +70,10 @@ main .main-buttons{
 }
 main .main-buttons div{
     display: inline-block;
+}
+main .main-buttons button:hover {
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px black;
+    color: #222;
+
 }
